@@ -1,0 +1,2 @@
+# ChyvesDiscordTheme
+theme
