@@ -285,6 +285,10 @@ aside.membersWrap_cbd271 {
   position: relative;
   min-width: 0;
 }
+div.membersWrap_cbd271 {
+  position: relative;
+  min-width: 0;
+}
 
 div.members_cbd271 {
   min-width: 0;
@@ -310,7 +314,20 @@ h3.membersGroup_cbd271 {
   z-index: 1;
 }
 
+h2.membersGroup_cbd271 {
+  height: 0;
+  padding: 0;
+  transition: height 0.5s ease, padding 0.5s ease;
+  overflow: hidden;
+  z-index: 1;
+}
+
 div.members_cbd271:hover h3.membersGroup_cbd271 {
+  height: auto;
+  padding: 24px 8px 0 16px;
+}
+
+div.members_cbd271:hover h2.membersGroup_cbd271 {
   height: auto;
   padding: 24px 8px 0 16px;
 }
