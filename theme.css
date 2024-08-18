@@ -281,7 +281,7 @@
   display: block;
 }
 
-aside.membersWrap_cbd271 {
+aside.membersWrap_cbd271, div.membersWrap_cbd271 {
   position: relative;
   min-width: 0;
 }
